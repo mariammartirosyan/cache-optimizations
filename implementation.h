@@ -22,7 +22,7 @@ void aware(int *src, int *dst, int SIZE)
        }
    }
 }
-//source begin: https://stackoverflow.com/questions/4909263/how-to-efficiently-de-interleave-bits-inverse-morton
+
 int morton_decode(int z)
 {
     int w = (z & 0xAAAAAAAA) << 31 | (z & 0x55555555);
@@ -32,7 +32,6 @@ int morton_decode(int z)
     w = (w | (w >> 8)) & 0x0000FFFF0000FFFF;
     return w;
 }
-//source end
 
 void oblivious(int *src, int *dst, int SIZE)
 {

@@ -5,11 +5,6 @@
 
 #include "implementation.h"
 
-//DON'T CHANGE THIS FILE!!!
-//DON'T CHANGE THIS FILE!!!
-//DON'T CHANGE THIS FILE!!!
-//DON'T CHANGE THIS FILE!!!
-
 #define SIZE 16384
 
 int main(){
