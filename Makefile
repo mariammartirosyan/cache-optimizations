@@ -1,16 +1,16 @@
 all: naive aware oblivious optimized
 
 naive:
-	gcc a1.c -O0 -D_N -o naive
+	gcc matrix_transpose_main.c -O0 -D_N -o naive
 
 aware:
-	gcc a1.c -O0 -D_A -o aware
+	gcc matrix_transpose_main.c -O0 -D_A -o aware
 
 oblivious:
-	gcc a1.c -O0 -D_O -o oblivious
+	gcc matrix_transpose_main.c -O0 -D_O -o oblivious
 
 optimized:
-	gcc a1.c -O0 -D_OPTIMIZED -o optimized
+	gcc matrix_transpose_main.c -O0 -D_OPTIMIZED -o optimized
 
 clean:
 	rm naive

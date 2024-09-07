@@ -1,4 +1,4 @@
-# CacheOptimizations
+# Cache Optimizations
 
 implementation.h file contains four different implementations of matrix transposition. 
 

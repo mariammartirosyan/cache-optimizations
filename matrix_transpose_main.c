@@ -3,7 +3,7 @@
 #include<stdlib.h>
 #include<sys/time.h>
 
-#include "implementation.h"
+#include "matrix_transpose_strategies.h"
 
 #define SIZE 16384
 
